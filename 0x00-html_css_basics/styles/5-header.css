@@ -1,0 +1,91 @@
+header {
+  background-color: #FF0000;
+  height: 60px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.container {
+  background-color: #00FF00;
+  height: 50px;
+  max-width: 1000px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.logo {
+  background-color: #0000FF;
+  height: 100%;
+  width: 120px;
+  display:inline-block;
+  align-items: left;
+  padding-left:0;
+}
+
+.search {
+  background-color: #550000;
+  position: absolute;
+  height: 40px;
+  left: 140px;
+  right: 220px;
+  margin: 5px 0px 5px 0px;
+  display: inline-flex;
+}
+
+.user {
+  background-color: #005500;
+  height: 100%;
+  width: 200px;
+  display:inline-flex;
+  padding-right:0;
+  float:right;
+  flex-wrap: wrap;
+}
+
+.find {
+  background-color: #005555;
+  height: 100%;
+  width: 45%;
+  display: inline-flex;
+}
+
+.location {
+  background-color: #009999;
+  height: 100%;
+  width: 45%;
+  display: inline-flex;
+  margin: 0;
+}
+
+.action {
+  background-color: #119911;
+  height: 100%;
+  width: 10%;
+  display: inline-flex
+
+}
+
+label {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  line-height: 35px;
+}
+
+input {
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+  border: 0;
+  width: 100%;
+
+}
+
+button {
+  background-color: salmon;
+  width: 100%;;
+}
