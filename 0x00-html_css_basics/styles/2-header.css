@@ -17,3 +17,12 @@ header {
   margin-top: 0;
   padding-left: 0;
 }
+
+.logo {
+  background-color: #0000FF;
+  height: 100%;
+  width: 120px;
+  display:inline-block;
+  align-items: left;
+  padding-left:0;
+}
