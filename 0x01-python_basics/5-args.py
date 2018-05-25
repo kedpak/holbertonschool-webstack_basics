@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
-print number of arguments 
+print number of arguments
 '''
 import sys
 
