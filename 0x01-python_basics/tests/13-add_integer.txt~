@@ -1,0 +1,33 @@
+Tests
+
+>>> add_integer = __import__("13-add_integer").add_integer
+
+# integers
+>>> add_integer(4, 6)
+10
+
+>>> add_integer(-3, 4)
+1
+
+# floats
+>>> add_integer(4.2, 1.3)
+5
+
+>>> add_integer(-10.2, 4.4)
+6
+
+# mixed
+>>> add_integer(5, 5.5)
+10
+
+>>> add_integer(-4, 8.6)
+4
+
+# error
+>>> add_integer(4, "number")
+TypeError: b must be an integer
+
+>>> add_integer({num: 3}, 2)
+...
+Traceback (most recent call last):
+TypeError: a must be an integer
