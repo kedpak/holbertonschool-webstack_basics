@@ -8,6 +8,7 @@ def print_diagonal(n):
     """Print diagonals based on n"""
     if n <= 0:
         print('\n')
+        return
     i = 0
     j = 0
     count = 1
@@ -21,3 +22,4 @@ def print_diagonal(n):
         count += 1
         i += 1
         j = 0
+    return
